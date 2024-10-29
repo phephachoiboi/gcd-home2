@@ -4,6 +4,7 @@ import MainSlider from "./MainSlider";
 import AboutUs from "./AboutUs";
 import MainServices from "./MainServices";
 import WhyChoosingUs from "./WhyChoosingUs";
+import TheBlog from "./TheBlog";
 
 const Home2Scenario = () => {
   return (
@@ -12,6 +13,7 @@ const Home2Scenario = () => {
       <AboutUs />
       <MainServices />
       <WhyChoosingUs />
+      <TheBlog />
     </main>
   );
 };
