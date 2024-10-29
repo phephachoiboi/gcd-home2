@@ -3,6 +3,7 @@ import "../App.css";
 import MainSlider from "./MainSlider";
 import AboutUs from "./AboutUs";
 import MainServices from "./MainServices";
+import WhyChoosingUs from "./WhyChoosingUs";
 
 const Home2Scenario = () => {
   return (
@@ -10,6 +11,7 @@ const Home2Scenario = () => {
       <MainSlider />
       <AboutUs />
       <MainServices />
+      <WhyChoosingUs />
     </main>
   );
 };

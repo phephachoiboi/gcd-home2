@@ -107,7 +107,7 @@ const MainServices = () => {
         </div>
       </div>
       {/* Wave line */}
-      <div className="relative mt-[-166px] z-[0]">
+      <div className="relative mt-[-166px] z-[0] hidden md:hidden lg:block ">
         <img src={WaveLine} alt="" />
       </div>
     </div>
