@@ -1,7 +1,8 @@
 import React, { useState, useRef, useEffect } from "react";
 import "../App.css";
 import MainLogo from "../assets/images/MainLogo.svg";
-import HomePlus from "../assets/images/HomePlus.svg";
+import MainLogo2 from "../assets/images/MainLogo2.svg";
+import HomePlus from "../assets/images/HomePlus.png";
 import ContactButton from "../assets/images/ContactButton.png";
 import DropDownResButton from "../assets/images/DropdownHeaderRes.svg";
 
@@ -51,7 +52,7 @@ const Header = () => {
       >
         {/* Main Logo */}
         <button className="relative md:flex w-[258px] h-[63px] bg-none border-none p-0 m-0 cursor-pointer">
-          <img className="absolute top-0 left-[-4px]" src={MainLogo} alt="" />
+          <img className="absolute top-0 left-0" src={MainLogo2} alt="" />
         </button>
 
         {/* Dropdown button for smaller screens */}
@@ -80,7 +81,7 @@ const Header = () => {
          ${isMenuOpen ? "block" : "hidden"}
          space-y-8 lg:space-y-0
          lg:flex lg:items-center
-         bg-white lg:w-auto
+         bg-gray-500 lg:w-auto
          lg:bg-transparent
          py-4 lg:py-0
          shadow-lg lg:shadow-none
@@ -97,14 +98,14 @@ const Header = () => {
               className="flex lg:w-full md:w-3/4 max-w-[55px] h-[24px] lg:ml-[45px] mx-auto font-poppins
                           text-[16px] font-medium leading-[24px] tracking-[0.1em]
                          text-left bg-none border-none p-0 cursor-pointer 
-                          items-center text-[#8B8B8B] "
+                          items-center text-[#D8DCFF] "
             >
               <p className="m-0">About</p>
             </button>
             <button
               className="flex lg:w-full md:w-3/4 max-w-[69px] h-[24px] lg:ml-[45px] mx-auto font-poppins
        text-[16px] font-medium leading-[24px] tracking-[0.1em]
-       items-center text-center bg-none border-none p-0 cursor-pointer text-[#8B8B8B]  
+       items-center text-center bg-none border-none p-0 cursor-pointer text-[#D8DCFF]  
        "
             >
               <p className="m-0">Service</p>
@@ -112,7 +113,7 @@ const Header = () => {
             <button
               className="flex lg:w-full md:w-3/4 max-w-[67px] h-[24px] lg:ml-[46px] mx-auto font-poppins
        text-[16px] font-medium leading-[24px] tracking-[0.1em]
-       items-center text-left bg-none border-none p-0 cursor-pointer text-[#8B8B8B]
+       items-center text-left bg-none border-none p-0 cursor-pointer text-[#D8DCFF]
        "
             >
               <p className="m-0">Gallery</p>
@@ -120,7 +121,7 @@ const Header = () => {
             <button
               className="flex lg:w-full md:w-3/4 max-w-[41px] h-[24px] lg:ml-[47px] mx-auto font-poppins
          text-[16px] font-medium leading-[24px] tracking-[0.1em]
-         items-center text-left bg-none border-none p-0 cursor-none text-[#8B8B8B]
+         items-center text-left bg-none border-none p-0 cursor-none text-[#D8DCFF]
        "
             >
               <p className="m-0">Blog</p>
