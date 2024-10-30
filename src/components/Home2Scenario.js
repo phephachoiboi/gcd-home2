@@ -5,6 +5,7 @@ import AboutUs from "./AboutUs";
 import MainServices from "./MainServices";
 import WhyChoosingUs from "./WhyChoosingUs";
 import TheBlog from "./TheBlog";
+import RequestCallServices from "./RequestCallServices";
 
 const Home2Scenario = () => {
   return (
@@ -14,6 +15,7 @@ const Home2Scenario = () => {
       <MainServices />
       <WhyChoosingUs />
       <TheBlog />
+      <RequestCallServices />
     </main>
   );
 };
