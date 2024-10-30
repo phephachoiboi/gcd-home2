@@ -56,9 +56,9 @@ const TheBlog = () => {
                     like these sweet mornings ...
                   </p>
                 </div>
-                <div className="w-auto h-auto mt-[15px]">
+                <button className="w-auto h-auto mt-[15px] cursor-pointer">
                   <img src={LearnMoreButtonUs} alt="" />
-                </div>
+                </button>
               </div>
             </div>
 
@@ -92,9 +92,9 @@ const TheBlog = () => {
                     like these sweet mornings ...
                   </p>
                 </div>
-                <div className="w-auto h-auto mt-[15px]">
+                <button className="w-auto h-auto mt-[15px] cursor-pointer">
                   <img src={LearnMoreButtonUs} alt="" />
-                </div>
+                </button>
               </div>
             </div>
 
@@ -128,9 +128,9 @@ const TheBlog = () => {
                     like these sweet mornings ...
                   </p>
                 </div>
-                <div className="w-auto h-auto mt-[15px]">
+                <button className="w-auto h-auto mt-[15px] cursor-pointer">
                   <img src={LearnMoreButtonUs} alt="" />
-                </div>
+                </button>
               </div>
             </div>
           </div>

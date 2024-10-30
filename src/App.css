@@ -2,3 +2,16 @@
   margin: 0;
   background: #FFFFFF;
 }
+
+input[type="text"] {
+ height: 73px;
+ border-color: #D9DDFE;
+ box-sizing: border-box;
+ font-family: 'Poppins', sans-serif;
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 24px;
+ letter-spacing: 0.1em;
+ color: #C5C5C5;
+}
+
