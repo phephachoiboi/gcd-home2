@@ -46,9 +46,9 @@ const MainServices = () => {
                     adipiscing.
                   </p>
                 </div>
-                <div className="w-auto h-auto mt-[17px]">
+                <button className="w-auto h-auto mt-[17px] cursor-pointer">
                   <img src={LearnMoreButtonUs} alt="" />
-                </div>
+                </button>
               </div>
             </div>
             {/* Middle box */}
@@ -72,9 +72,9 @@ const MainServices = () => {
                     adipiscing.
                   </p>
                 </div>
-                <div className="w-auto h-auto mt-[17px]">
+                <button className="w-auto h-auto mt-[17px] cursor-pointer">
                   <img src={LearnMoreButtonUs} alt="" />
-                </div>
+                </button>
               </div>
             </div>
             {/* Right box */}
@@ -98,9 +98,9 @@ const MainServices = () => {
                     adipiscing.
                   </p>
                 </div>
-                <div className="w-auto h-auto mt-[17px]">
+                <button className="w-auto h-auto mt-[17px] cursor-pointer">
                   <img src={LearnMoreButtonUs} alt="" />
-                </div>
+                </button>
               </div>
             </div>
           </div>
