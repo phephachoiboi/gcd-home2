@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Home2Scenario from "./components/Home2Scenario";
 import BackgroundSlider from "../src/assets/images/BackgroundSlider.png";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         >
           <Header />
           <Home2Scenario />
+          <Footer />
         </div>
       </div>
     </div>
