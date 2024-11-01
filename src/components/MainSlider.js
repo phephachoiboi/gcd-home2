@@ -2,6 +2,7 @@ import React from "react";
 import "../App.css";
 import MoreDetailsButton1 from "../assets/images/MoreDetailsButton1.svg";
 import PlayVideoTourButton from "../assets/images/PlayVideoTourButton.svg";
+//import PlayVideoTourButton from "../assets/images/PlayVideoTourButton.png";
 
 const MainSlider = () => {
   return (
@@ -35,7 +36,7 @@ const MainSlider = () => {
             </button>
           </div>
           {/* Right side button */}
-          <button className="max-w-[275px] w-full h-auto lg:mt-0 mt-9 cursor-pointer">
+          <button className="relative max-w-[278px] w-full h-auto lg:mt-[-8px] mt-9 lg:mr-[12px] mr-0 cursor-pointer">
             <img src={PlayVideoTourButton} alt="" />
           </button>
         </div>

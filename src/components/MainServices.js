@@ -27,10 +27,10 @@ const MainServices = () => {
           <div className="flex flex-wrap gap-[66px] max-w-[915px] w-full h-auto mt-[68px] mx-auto justify-center z-[1]">
             {/* Left box */}
             <div
-              className="hover:scale-105 hover:shadow-lg transition-all duration-300 max-w-[261px] w-full
+              className="hover:scale-105 hover:shadow-lg transition-all duration-300 max-w-[261px] w-full h-[303px]
              rounded-[25px] border-[1px] bg-[#FFFFFF] border-[#E2E2E2]"
             >
-              <div className="flex flex-col pt-[31px] px-[36px] pb-[47px]">
+              <div className="flex flex-col pt-[30px] px-[36px] pb-[47px]">
                 <div className="w-auto h-auto">
                   <img src={Icon2Left} alt="" />
                 </div>
@@ -56,7 +56,7 @@ const MainServices = () => {
               className="hover:scale-105 hover:shadow-lg transition-all duration-300 max-w-[261px] w-full
              rounded-[25px] border-[1px] bg-[#FFFFFF] border-[#E2E2E2]"
             >
-              <div className="flex flex-col pt-[31px] px-[36px] pb-[47px]">
+              <div className="flex flex-col pt-[30px] px-[36px] pb-[47px]">
                 <div className="w-auto h-auto">
                   <img src={Icon2Mid} alt="" />
                 </div>
@@ -82,7 +82,7 @@ const MainServices = () => {
               className="hover:scale-105 hover:shadow-lg transition-all duration-300 max-w-[261px] w-full
              rounded-[25px] border-[1px] bg-[#FFFFFF] border-[#E2E2E2]"
             >
-              <div className="flex flex-col pt-[31px] px-[36px] pb-[47px]">
+              <div className="flex flex-col pt-[30px] px-[36px] pb-[47px]">
                 <div className="w-auto h-auto">
                   <img src={Icon2Right} alt="" />
                 </div>

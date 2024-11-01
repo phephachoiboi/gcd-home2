@@ -38,8 +38,8 @@ const TheBlog = () => {
               </div>
               <div className="flex flex-col mt-[56px] ml-[38px]">
                 <div
-                  className="w-[288px] h-[58px] mr-[21px]
-               font-poppins font-semibold text-[18px] leading-[22.5px] text-[#091156]"
+                  className="max-w-[288px] w-full mx-auto h-[58px] lg:mr-[21px]
+               font-poppins font-semibold text-[18px] leading-[21.5px] text-[#091156]"
                 >
                   <p className="m-0">
                     How much does a consultation
@@ -47,7 +47,7 @@ const TheBlog = () => {
                     cost at our clinic?
                   </p>
                 </div>
-                <div className="w-[271px] h-[74px] font-poppins font-normal text-[14px] leading-[21px] tracking-[0.1em]  text-[#8B8B8B]">
+                <div className="max-w-[271px] w-full lg:mx-0 mx-auto h-[74px] lg:mt-[-1px] mt-0 font-poppins font-normal text-[14px] leading-[21px] tracking-[0.1em] text-[#8B8B8B]">
                   <p className="m-0">
                     A wonderful serenity has taken
                     <br />
@@ -56,7 +56,7 @@ const TheBlog = () => {
                     like these sweet mornings ...
                   </p>
                 </div>
-                <button className="w-auto h-auto mt-[15px] cursor-pointer">
+                <button className="w-auto h-auto mt-[15px] cursor-pointer lg:mx-0 mx-auto">
                   <img src={LearnMoreButtonUs} alt="" />
                 </button>
               </div>
@@ -74,8 +74,8 @@ const TheBlog = () => {
               </div>
               <div className="flex flex-col mt-[56px] ml-[38px]">
                 <div
-                  className="w-[288px] h-[58px] mr-[21px]
-               font-poppins font-semibold text-[18px] leading-[22.5px] text-[#091156]"
+                  className="max-w-[288px] w-full mx-auto h-[58px] lg:mr-[21px]
+               font-poppins font-semibold text-[18px] leading-[21.5px] text-[#091156]"
                 >
                   <p className="m-0">
                     Watch out! don't choose the
@@ -83,7 +83,7 @@ const TheBlog = () => {
                     wrong beauty product
                   </p>
                 </div>
-                <div className="w-[271px] h-[74px] font-poppins font-normal text-[14px] leading-[21px] tracking-[0.1em]  text-[#8B8B8B]">
+                <div className="max-w-[271px] w-full lg:mx-0 mx-auto h-[74px] lg:mt-[-1px] mt-0 font-poppins font-normal text-[14px] leading-[21px] tracking-[0.1em]  text-[#8B8B8B]">
                   <p className="m-0">
                     A wonderful serenity has taken
                     <br />
@@ -92,7 +92,7 @@ const TheBlog = () => {
                     like these sweet mornings ...
                   </p>
                 </div>
-                <button className="w-auto h-auto mt-[15px] cursor-pointer">
+                <button className="w-auto h-auto mt-[15px] lg:mx-0 mx-auto cursor-pointer">
                   <img src={LearnMoreButtonUs} alt="" />
                 </button>
               </div>
@@ -110,8 +110,8 @@ const TheBlog = () => {
               </div>
               <div className="flex flex-col mt-[56px] ml-[38px]">
                 <div
-                  className="w-[288px] h-[58px] mr-[21px]
-               font-poppins font-semibold text-[18px] leading-[22.5px] text-[#091156]"
+                  className="max-w-[288px] w-full h-[58px] lg:mr-[21px] mx-auto
+               font-poppins font-semibold text-[18px] leading-[21.5px] text-[#091156]"
                 >
                   <p className="m-0">
                     About skin care you need to
@@ -119,7 +119,7 @@ const TheBlog = () => {
                     know
                   </p>
                 </div>
-                <div className="w-[271px] h-[74px] font-poppins font-normal text-[14px] leading-[21px] tracking-[0.1em]  text-[#8B8B8B]">
+                <div className="max-w-[271px] w-full h-[74px] lg:mx-0 mx-auto lg:mt-[-1px] mt-0 font-poppins font-normal text-[14px] leading-[21px] tracking-[0.1em]  text-[#8B8B8B]">
                   <p className="m-0">
                     A wonderful serenity has taken
                     <br />
@@ -128,7 +128,7 @@ const TheBlog = () => {
                     like these sweet mornings ...
                   </p>
                 </div>
-                <button className="w-auto h-auto mt-[15px] cursor-pointer">
+                <button className="w-auto h-auto mt-[15px] lg:mx-0 mx-auto cursor-pointer">
                   <img src={LearnMoreButtonUs} alt="" />
                 </button>
               </div>
