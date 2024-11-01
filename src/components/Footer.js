@@ -20,7 +20,7 @@ const Footer = () => {
         <div className="flex max-w-[1440px] mx-auto w-full h-auto lg:ml-0 md:ml-9 ml-6 lg:px-0 md:px-4 px-6">
           <div className="flex flex-col max-w-[1140px] w-full mx-auto lg:px-0 md:px-4 px-6 z-[1]">
             {/* Upper part for Sidebars */}
-            <div className="flex lg:flex-row flex-col max-w-[1140px] w-full lg:mt-[222.34px] lg:mx-0 mx-auto lg:px-0 md:px-4 px-6">
+            <div className="flex lg:flex-row flex-col max-w-[1140px] w-full lg:mt-[224.34px] lg:mx-0 mx-auto lg:px-0 md:px-4 px-6">
               {/* Sidebar 1 */}
               <div className="flex flex-col max-w-[492px] w-full h-[191px] lg:mt-[16px] mt-10 z-[1] mx-0  text-left ">
                 <div className="flex w-[258px] h-[63px] mx-0">
@@ -248,7 +248,7 @@ const Footer = () => {
 
           {/* To the top button */}
           <button
-            className="flex justify-end max-w-[36px] w-full h-[36px] lg:mt-[499.34px] lg:visible invisible 
+            className="flex justify-end max-w-[36px] w-full h-[36px] lg:mt-[499px] lg:visible invisible 
       lg:ml-[-101px] lg:mr-[65px] m-0 bg-none border-none p-0 cursor-pointer items-center z-[1]"
           >
             <img

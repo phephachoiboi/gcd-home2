@@ -1,6 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
 import "../App.css";
-import MainLogo from "../assets/images/MainLogo.svg";
 import MainLogo2 from "../assets/images/MainLogo2.svg";
 import HomePlus from "../assets/images/HomePlus.png";
 import ContactButton from "../assets/images/ContactButton.png";
@@ -97,7 +96,7 @@ const Header = () => {
             <button
               className="flex lg:w-full md:w-3/4 max-w-[55px] h-[24px] lg:ml-[45px] mx-auto font-poppins
                           text-[16px] font-medium leading-[24px] tracking-[0.1em]
-                         text-left bg-none border-none p-0 cursor-pointer 
+                         text-left bg-none border-none p-0 cursor-pointer
                           items-center text-[#D8DCFF] "
             >
               <p className="m-0">About</p>
@@ -128,7 +127,7 @@ const Header = () => {
             </button>
             {/* Contact Button */}
             <button
-              className="max-w-[158px] md:flex lg:w-full h-auto lg:h-full ml-auto lg:ml-[52px] mx-auto md:justify-start bg-none
+              className=" md:flex lg:w-full h-auto lg:h-full ml-auto lg:ml-[52px] mx-auto md:justify-start bg-none
      border-none p-0 cursor-pointer items-center z-10
      "
             >

@@ -9,7 +9,7 @@ import BackgroundChoosingUs from "../assets/images/BackgroundChoosingUs.png";
 const WhyChoosingUs = () => {
   return (
     <div
-      className="relative max-w-[1440px] w-full sm:h-[697.5px] h-[700px] lg:mt-[-56.34px] mt:[-90px] bg-cover object-cover z-[0]"
+      className="relative max-w-[1440px] w-full sm:h-[697.5px] h-[700px] lg:mt-[-58.34px] mt:[-90px] bg-cover object-cover z-[0]"
       style={{ backgroundImage: `url(${BackgroundChoosingUs})` }}
     >
       <div className="w-full lg:px-0 md:px-6 sm:px-4">
@@ -43,7 +43,7 @@ const WhyChoosingUs = () => {
             <div className="flex sm:flex-row flex-col sm:gap-[72px]">
               {/* Left side double items*/}
               <div className="flex-col lg:mt-0 sm:mt-[43px] mt-[24px]">
-                <div className="w-auto h-auto">
+                <div className="w-auto h-auto lg:mt-[4px] mt-0">
                   <img src={TrustedClinic} alt="" />
                 </div>
                 <div className="w-auto h-auto sm:mt-[43px] mt-[24px]">
@@ -52,7 +52,7 @@ const WhyChoosingUs = () => {
               </div>
               {/* Right side double items */}
               <div className="flex-col lg:mt-0 sm:mt-[43px] mt-[24px]">
-                <div className="w-auto h-auto">
+                <div className="w-auto h-auto lg:mt-[-1px] mt-0">
                   <img src={CustomerLove} alt="" />
                 </div>
                 <div className="w-auto h-auto sm:mt-[43px] mt-[24px]">
